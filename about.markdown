@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Overview
+I'm Harri (They/Them). 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Currently, I am finishing off a PhD at The University of Manchester in Soft Robotics. Hopefully some of that work will be hosted here.
 
 
-[jekyll-organization]: https://github.com/jekyll
+Besides that, I am a mathematician, working on computational modelling with dynamic oscillator networks. I'm going to be getting more into this in the next few years, so I will kepp this website as a host for that work. 
+
+Education content will be here, as well as my tutoring work. 
+
+I'm also going to use this space to host projects, art and other things as time goes on, hoepfully it will fill up nicely. 
+
+
