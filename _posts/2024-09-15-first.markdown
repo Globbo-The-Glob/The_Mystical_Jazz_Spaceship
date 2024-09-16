@@ -1,0 +1,12 @@
+---
+layout: post
+title:  First Post
+date:   2024-09-15 11:48
+categories: jekyll update
+permalink: "/first"
+---
+# Welcome to my new site 
+
+I'll lay out here how I will use the website and what's where. 
+I'd like to also talk a little about my future aspirations for the site. 
+
