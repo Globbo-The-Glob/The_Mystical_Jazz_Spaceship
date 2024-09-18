@@ -4,7 +4,6 @@ title: Tutoring
 permalink: /tutoring/
 ---
 
-## Tutoring
 I am a tutor and blogger for A-level, GCSE, Pre-GCSE and personal interests.
 
 ### [Rates](rates.md)
