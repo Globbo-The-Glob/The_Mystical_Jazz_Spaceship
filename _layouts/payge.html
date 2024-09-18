@@ -1,5 +1,17 @@
 ---
 layout: wrapper
 ---
+<style>
+    main {
+        /* Same as the width of the sidenav */
+       
+       font-size: min(calc(1vw + 1vh + 1.5vmin), 32px);/* Increased text to enable scrolling */
+       text-align: center;
+       padding: 10px 50px 10px;
+       color: #ffbf00;
+       grid-column: 2;
+       
+     }
+</style>
 <h2>{{page.title}}</h2>
 {{content}}
