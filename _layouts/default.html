@@ -1,0 +1,190 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title>{{page.title}}</title>
+    </head>
+
+    <style>
+        body{
+          background-color: rgb(7, 7, 7);
+        }
+        
+        h3{
+          color: #ffbf00;
+        }
+
+        .wrapper{
+          display: grid;
+          border-color: #fda553;
+          height:98vh;
+          top: 1vh;
+          bottom: 1vh;
+          grid-template-rows: 100px 10fr 30px;
+          grid-template-columns: 170px 1fr;
+          grid-gap: 5px 5px;
+        }
+
+        .logo{
+          color:#ffcefb;
+          background-color:rgba(236, 146, 216, 0);
+          grid-column: 1;
+          text-shadow:1px 1px 10px #ffe056, 1px 1px 10px #fa5fe0;
+          font-size: 36px;
+          text-align:center;
+          padding-top: 0px;
+          padding-left: 10px;
+          padding-bottom: 10px;
+          padding-right: 10px;
+          overflow-x: hidden;
+          overflow-y:hidden ;
+          
+        }
+
+        .topnav {
+          background-color: #4f4d5f3f;
+          overflow: hidden;
+          grid-area: 1/2/2/2;
+          }
+        
+        /* Style the links inside the navigation b99c5c4ar */
+        .topnav a {
+          float: left;
+          color: #ffe7d0;
+          text-align: center;
+          padding-top: 10px;
+          padding-bottom: 12px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 17px;
+          text-decoration: none;
+        }  
+        
+        /* Change the color of links on hover */
+        .topnav a:hover {
+          background-color: #dda1e2;  height: 10vh;
+          color: black;
+        }
+        
+        /* Add a color to the active/current link */
+        .topnav a.active {
+          background-color: #1b9ab9;
+          color: rgb(0, 0, 0);
+          box-shadow: 1px 1px 1px 1px #ffe7d0;
+          text-shadow:1px 1px 10px #fff, 1px 1px 10px #ffe678;
+        }
+        
+
+
+        .sidenav {
+          height: 100%; /* Full-height: remove this if you want "auto" height */
+          /* Set the width of the sidebar */
+           /* Fixed Sidebar (stay in place on scroll) */
+          z-index: 2; /* Stay on top */
+          background-color: rgba(90, 18, 224, 0.2) ; /* Black */
+          border: 1px outset #fda553;
+          overflow-x: hidden; /* Disable horizontal #ad2f2fscroll */
+          padding-top: 2px;
+          padding-right: 8px;
+          padding-bottom: 0px;
+          padding-left: 8px;
+          grid-column: 1;
+      }
+      
+      /* The navigation menu links */
+      .sidenav a {
+          padding-top: 5px;
+          padding-right: 3px;
+          padding-bottom: 5px;
+          padding-left: 8px;
+          text-decoration: none;
+          font-size: 18px;
+          color: #ffe7d0;
+          display: block;
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .sidenav a:hover {
+          color: #f1f1f1;
+          text-shadow:1px 1px 10px #dc85e4, 1px 1px 10px #dda1e2;
+      }
+
+      .main {
+         /* Same as the width of the sidenav */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+        color: #ffbf00;
+        grid-column: 2;
+        border: 1px outset #fda553;
+      }
+
+      .footer {
+        /* Same as the width of the sidenav */
+       font-size: 18px; /* Increased text to enable scrolling */
+       padding: 0px 2px;
+       color: #ffbf00;
+       grid-area: 3 / 1 / 4 / 3;
+       border: 1px outset #fda553;
+     }
+    
+    </style>
+    
+
+    <body>
+      <div class="wrapper">
+        
+            <div class="logo">
+              
+              MJS.FM
+              <hr>
+              <hr>
+            </div>
+            <div class="topnav">
+              <a {% if page.title == "Home"%} 
+                class="active" 
+                {%endif%}
+                href="/home/">Home</a>
+              <a {% if page.title == "About"%} 
+              class="active" 
+              {%endif%}
+              href="/about/">About</a>
+              <a 
+              {% if page.title == "Tutoring"%} 
+                class="active" 
+                {%endif%} href="/tutoring/">Tutoring</a>
+              <a {% if page.title == "Projects"%} 
+              class="active" 
+              {%endif%} 
+              href="/projects/">Projects</a>
+              <a {% if page.title == "Art"%} 
+              class="active" 
+              {%endif%}
+              href="/art/">Art</a>
+            </div>
+        
+        
+            <div class="sidenav">
+              <h3 >Flash Nav</h3>
+              <hr color="#ffbf00">
+              <hr color=#ffbf00>
+              {% for post in site.posts %}
+                <a href="{{post.url}}">{{post.title}}</a>
+              {%endfor%}
+            </div>
+            <div class="main">{{content}}</div>
+
+            <div class="footer">
+              Pink noise through the Void
+            </div>
+        
+      </div>      
+
+
+    </body>
+        
+     
+
+     
+      
+   
+    
+</html>

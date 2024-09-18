@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Art
+permalink: /art/
 ---
 
 # IN PROGRESS

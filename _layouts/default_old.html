@@ -1,0 +1,208 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title>{{page.title}}</title>
+    </head>
+
+    <style>
+        body{background:rgb(0, 82, 78) 0%;
+            color: #ffe7d0;
+            top: 110px;
+        }
+        li{font-size: 26px;
+            color: #ffe7d0
+        }
+        
+        h1{
+            
+            color:#000000;
+            text-shadow:1px 1px 10px #fff, 1px 1px 10px #ffe678;
+            font-size:48px;
+            text-align:left;
+          }
+        
+          .logo{
+            color:#000000;
+            text-shadow:1px 1px 10px #fff, 1px 1px 10px #ffe678;
+            font-size: min(36px, 2vh);;
+            text-align:left;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            flex:1;
+            overflow-x: hidden;
+            overflow-y:hidden ;
+          }
+
+          .wrapper{
+            display: flex;
+            padding: 5px 5px 5px 5px;
+          }
+          
+          .headerblock{
+            display: flex;
+            flex-direction: column;
+            width: 98vw;
+            top: 10px;
+            z-index: 1;
+            position: fixed;
+            height: clamp(80px,10vh,100px);
+            background-color: rgb(221, 161, 226,0.4);
+            padding-top: 1%;
+            left: 10px;
+            right: 10px;
+            flex: 1;
+            
+          }
+
+          .mainblock{
+            display: flex;
+            flex-direction: column;
+            width: 98vw;
+            position: fixed;
+            top: 12vh;
+            left: 12px;
+            right: 10px;
+            z-index: 1;
+            overflow-y:auto;
+            flex:10
+          }
+
+          .topnav {
+            background-color: #fda553;
+            overflow: hidden;
+            flex: 1;
+            }
+          
+          /* Style the links inside the navigation b99c5c4ar */
+          .topnav a {
+            float: left;
+            color: #000000;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 17px;
+            text-decoration: none;
+          }  
+          
+          /* Change the color of links on hover */
+          .topnav a:hover {
+            background-color: #dda1e2;  height: 10vh;
+            color: black;
+          }
+          
+          /* Add a color to the active/current link */
+          .topnav a.active {
+            background-color: #1b9ab9;
+            color: rgb(0, 0, 0);
+            box-shadow: 1px 1px 1px 1px #ffe7d0;
+            text-shadow:1px 1px 10px #fff, 1px 1px 10px #ffe678;
+          }
+          
+          /* The sidebar menu */
+        .sidenav {
+            height: 90%; /* Full-height: remove this if you want "auto" height */
+            width: 150px; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 2; /* Stay on top */
+            top: 14vh; /* Stay at the top */
+            left: 10px;
+            background-color: rgb(41, 201, 193, 0.2) ; /* Black */
+            border: 1px outset #fda553;
+            overflow-x: hidden; /* Disable horizontal #ad2f2fscroll */
+            padding-top: 2px;
+            padding-right: 1px;
+            padding-bottom: 0px;
+            padding-left: 8px;
+        }
+        
+        /* The navigation menu links */
+        .sidenav a {
+            padding-top: 5px;
+            padding-right: 3px;
+            padding-bottom: 5px;
+            padding-left: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #ffe7d0;
+            display: block;
+        }
+        
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: #f1f1f1;
+            text-shadow:1px 1px 10px #dc85e4, 1px 1px 10px #dda1e2;
+        }
+
+        .main {
+            margin-left: 170px; /* Same as the width of the sidenav */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+            left: 70px;
+            top: 500px; /* Stay at the top */
+          }
+          
+          @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+          }
+    </style>
+    <div class="wrapper">
+      <div class="headerblock">
+        
+          <div class="logo">The Mystical Jazz Spaceship</div>
+          
+        <div class="topnav">
+          <a {% if page.title == "Home"%} 
+            class="active" 
+            {%endif%}
+            href="/home/">Home</a>
+          <a {% if page.title == "About"%} 
+          class="active" 
+          {%endif%}
+          href="/about/">About</a>
+          <a 
+          {% if page.title == "Tutoring"%} 
+            class="active" 
+            {%endif%} href="/tutoring/">Tutoring</a>
+          <a {% if page.title == "Projects"%} 
+          class="active" 
+          {%endif%} 
+          href="/projects/">Projects</a>
+          <a {% if page.title == "Art"%} 
+          class="active" 
+          {%endif%}
+          href="/art/">Art</a>
+        </div> 
+
+      </div>
+
+       <div class="mainblock">
+              <div class="sidenav">
+                <h3>Blog Posts</h3>
+                {% for post in site.posts %}
+                  <a href="{{post.url}}">{{post.title}}</a>
+                {%endfor%}
+                </div>
+
+                <!-- Side navigation -->
+                <div class="main">
+                  {{content}}
+                </div>
+    
+            
+                
+            
+            
+              </div>
+       </div>
+    </div>
+        
+     
+
+     
+      
+   
+    
+</html>

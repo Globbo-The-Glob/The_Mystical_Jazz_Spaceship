@@ -22,12 +22,12 @@ title: The Mystical Jazz Spaceship
 email: Harri.McAleese@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   Website for personal projects, education, blogging and art.
-baseurl: "/The_Mystical_Jazz_Spaceship" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Globbo-The-Glob
 
 # Build settings
-theme: minima
+
 plugins:
   - jekyll-feed
 
