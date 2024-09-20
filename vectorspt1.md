@@ -59,7 +59,7 @@ This brings up another feature of $$\mathbb{R}^2$$, that our vectors have _angle
 So, you might be wondering how a triangle with angles less or more than $$90^\circ$$ can be made from our basis. Further, what if we wanted a tringle with sides longer than 1?  
 Well, like I said we can build any vector in $$\mathbb{R}^2$$ from the basis. Lets build a vector now, lets give it a name, like $$v$$ for vector. 
 Our vector $$v$$ is going to be made of some bits of $$x$$ and some bits of $$y$$, like this:
-$$$$ v = 3x + 4y $$$$ and $$v$$ lives in $$\mathbb{R}^2$$. We can say that mathematically by writing $$v \in \mathbb{R}^2$$ and we can draw it like this:
+$$ v = 3x + 4y $$ and $$v$$ lives in $$\mathbb{R}^2$$. We can say that mathematically by writing $$v \in \mathbb{R}^2$$ and we can draw it like this:
 
 ( Draw v)
 
@@ -72,7 +72,7 @@ Remember, $$x$$ and $$y$$ are both vectors themselves, basis vectors to be exact
 and this is just like following map instructions. 
 
 How about another vector, this time lets have our vector be $$u\in \mathbb{R}^2$$ , because it's next to $$v$$ in the alphabet:
-$$$$ u = -3x-4y $$$$
+$$ u = -3x-4y $$
 and we can add it to our picture:
 
 (Draw u)
@@ -80,29 +80,29 @@ and we can add it to our picture:
 Great. So what can we see with these two vectors. Well first, the numbers attached $$x$$ and $$y$$ tell us how many of each basis we need to build the vectors. We can see from our picture that $$u$$ is pointing the opposite way to $$v$$. This is also seen with the minus signs before the coefficients (those numbers before $$x$$ and $$y$$) when we wrote down $$u$$. However, if we take a ruler and measure both vectors, we see they have the same size.
 
 What would happen if we added these vectors together? Lets do that. 
-$$$$ v + u = 3x + 4y - 3x -4y $$$$ group like terms:
-$$$$ v + u = 3x -3x +4y - 4y = 0 $$$$ Interesting. Lets draw this out and see what it looks like.
+$$ v + u = 3x + 4y - 3x -4y $$ group like terms:
+$$ v + u = 3x -3x +4y - 4y = 0 $$ Interesting. Lets draw this out and see what it looks like.
 (Draw u + v)
 Right, so when we add these two , we think of it like walking along $$v$$ and then along $$u$$, but because $$u$$ is the same size as $$v$$, just pointing the other way. We end up back at the start. 
 This is again showing that vectors have direction and magnitude.
 
 We can also scale our vectors. Say we wanted a vector to be twice as long, we could write 
-$$$$ 2v = 2(3x + 4y) = 6x + 8y$$$$
+$$ 2v = 2(3x + 4y) = 6x + 8y$$
 (Draw this.)
 Nice and easy. The 2 is distributed to each coefficient. What happens if we write:
-$$$$ u + 2v ?$$$$
+$$ u + 2v ?$$
 Try drawing a picture and doing the calculation.
 
 Lets introduce another vector, lets call it $$w$$ and write it like: 
-$$$$ w = 0.5x + 6y \in \mathbb{R}^2$$$$
+$$ w = 0.5x + 6y \in \mathbb{R}^2$$
 $$w$$ also lives in $$\mathbb{R}^2$$, so we can draw it. 
 (Draw)
 This time, $$w$$ points in a similar direction to $$v$$, which is nice. It also lets us do another neat trick with vectors. What if I wanted to know about the vector $$\vec{vw}$$ ? 
 What is that? Well it's just the vector between $$v$$ and $$w$$:
 (Draw)
 So $$\vec{vw}$$ points from the tip of $$v$$ to the tip of $$w$$. If we think of vectors as paths again, how would we get this path? Well what if we went the long way? We could go back down $$v$$ and up to $$w$$, and we'd be at the tip of $$w$$, same as travelling $$vw$$.
-$$$$ \vec{vw} = w - v = 0.5x + 6y - (3x + 4y) $$$$
-$$$$              = 0.5x - 3x + 6y - 4y = -2.5x + 2y $$$$ (Draw)
+$$ \vec{vw} = w - v = 0.5x + 6y - (3x + 4y) $$
+$$              = 0.5x - 3x + 6y - 4y = -2.5x + 2y $$ (Draw)
 Try this yourself with the vector $$\vec{uw}$$, use the picture to help!  
 
 ## 4. Rulers made of math
@@ -110,13 +110,13 @@ Try this yourself with the vector $$\vec{uw}$$, use the picture to help!
 Its important to measure the direction and magnitude of vectors and we will want ways to do this in maths, because it won't always be possible to get a ruler out and measure them. Luckily, we have nice ways to calculate both!
 
 First, lets start with a vector's size. You hopefully will have encountered the Pythagorean Formula: 
-$$$$ c^2 = a^2 + b^2 $$$$
+$$ c^2 = a^2 + b^2 $$
 This is an amazing tool, because it gives us a very clean and simple way of calculating the size of a vector. Remember that the Pythagorean Formula tells us the length of a side of a right angle triangle, given the other two. This is exactly what we have in our picture of $$v$$.
 Because both our basis vectors $$x$$ and $$y$$ are size 1, the description $$v = 3x + 4y$$ tells us that we have two sides defined, a length 3 side and a length 4 side. In general, a vector's magnitude is written $$|v|$$ which reads like "the magnitude of $$v$$". The triangle looks like this, with $$a$$ being the number before $$x$$, and $$b$$ the number before $$y$$:
 (Draw triangle)
 All we have to do is calculate: 
-$$$$ |v| = \sqrt{a^2 + b^2} $$$$
-$$$$ |v| = \sqrt{3^2 + 4^2} = \sqrt{25} = 5 $$$$
+$$ |v| = \sqrt{a^2 + b^2} $$
+$$ |v| = \sqrt{3^2 + 4^2} = \sqrt{25} = 5 $$
 You can do this on a calculator, but try it on paper first by calculating $$|u|$$ yourself. 
 
 Notice that $$|u| = |v|$$. The vectors have the same magnitude. 
@@ -124,8 +124,8 @@ Can you prove to yourself using this that the basis vectors are magnitude 1 as w
 As a hint, think of $$x = 1x + 0y$$.
 
 Awesome, we have a way of getting the size of vectors without worrying about pulling out a ruler. This formula is so powerful that it actually works for any higher dimensional space too. Its the same in $$\mathbb{R}^3$$: 
-$$$$ vector = ax + by + cz \in \mathbb{R}^3
-$$$$ $$$$ |vector| = \sqrt{a^2 + b^2 + c^2}$$$$ and so on into higher dimensions.  
+$$ vector = ax + by + cz \in \mathbb{R}^3
+$$ $$ |vector| = \sqrt{a^2 + b^2 + c^2}$$ and so on into higher dimensions.  
 
 Now all we need to get is the angle between the vectors. This tool is a little more complicated, but very important and equally as powerful, so I am going to take the time to work up to it so that you can understand it well. 
 
