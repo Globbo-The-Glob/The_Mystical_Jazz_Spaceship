@@ -1,8 +1,7 @@
 ---
 layout: payge
 title: Weekly Bangers
-permalink: /blog/music/weekly
-categories: jekyll update
+permalink: /blog/music/weekly/
 ---
 *OF COURSE* The Mystical Jazz Spaceship broadcasts music baby, we wouldn't be the Anti-De Sitter Space's number one music station 5 eons running without it. Those cats love to boogie. 
 Here are weekly bangers blogged hopefully weekly. The concept of a week gets a little fuzzy universe hopping, so let's see how we do.
