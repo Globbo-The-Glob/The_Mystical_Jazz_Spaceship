@@ -1,7 +1,7 @@
 ---
 layout: payge
 title: Vectors - A Pointed Approach
-permalink: /blog/maths/vectors
+permalink: /blog/maths/vectors/
 categories: jekyll update
 date:   2024-09-16 16:31:51 +0100
 ---
