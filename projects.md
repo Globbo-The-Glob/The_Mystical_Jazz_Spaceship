@@ -4,5 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-# IN PROGRESS
-### Pardon Our Dust
+# Website Building
+
+<a href="/The_Mystical_Jazz_Spaceship//projects/building-the-site/conception">The Idea</a>
