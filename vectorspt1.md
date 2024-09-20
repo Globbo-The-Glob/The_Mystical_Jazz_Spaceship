@@ -2,8 +2,7 @@
 layout: payge
 title: Vectors - A Pointed Approach
 permalink: /blog/maths/vectors/
-categories: jekyll update
-date:   2024-09-16 16:31:51 +0100
+
 ---
 Harri, [20/09/2024 20:27]
 Vectors are a powerful concept shrouded behind some tricky language. They play such a fundamental role in mathematics and science, but are also very beautiful and I think quite fun. 
