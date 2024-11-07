@@ -101,8 +101,7 @@ This time, $$w$$ points in a similar direction to $$v$$, which is nice. It also 
 What is that? Well it's just the vector between $$v$$ and $$w$$:
 (Draw)
 So $$\vec{vw}$$ points from the tip of $$v$$ to the tip of $$w$$. If we think of vectors as paths again, how would we get this path? Well what if we went the long way? We could go back down $$v$$ and up to $$w$$, and we'd be at the tip of $$w$$, same as travelling $$vw$$.
-$$ \vec{vw} = w - v = 0.5x + 6y - (3x + 4y) $$
-$$              = 0.5x - 3x + 6y - 4y = -2.5x + 2y $$ (Draw)
+$$\vec{vw} = w - v = 0.5x + 6y - (3x + 4y)= 0.5x - 3x + 6y - 4y = -2.5x + 2y$$ (Draw)
 Try this yourself with the vector $$\vec{uw}$$, use the picture to help!  
 
 ## 4. Rulers made of math
@@ -114,9 +113,8 @@ $$ c^2 = a^2 + b^2 $$
 This is an amazing tool, because it gives us a very clean and simple way of calculating the size of a vector. Remember that the Pythagorean Formula tells us the length of a side of a right angle triangle, given the other two. This is exactly what we have in our picture of $$v$$.
 Because both our basis vectors $$x$$ and $$y$$ are size 1, the description $$v = 3x + 4y$$ tells us that we have two sides defined, a length 3 side and a length 4 side. In general, a vector's magnitude is written $$|v|$$ which reads like "the magnitude of $$v$$". The triangle looks like this, with $$a$$ being the number before $$x$$, and $$b$$ the number before $$y$$:
 (Draw triangle)
-All we have to do is calculate: 
-$$ |v| = \sqrt{a^2 + b^2} $$
-$$ |v| = \sqrt{3^2 + 4^2} = \sqrt{25} = 5 $$
+All we have to do is calculate: $$|v| = \sqrt{a^2 + b^2} $$
+$$|v| = \sqrt{3^2 + 4^2} = \sqrt{25} = 5$$
 You can do this on a calculator, but try it on paper first by calculating $$|u|$$ yourself. 
 
 Notice that $$|u| = |v|$$. The vectors have the same magnitude. 
