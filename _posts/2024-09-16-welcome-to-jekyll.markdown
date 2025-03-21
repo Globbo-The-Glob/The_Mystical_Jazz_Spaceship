@@ -17,6 +17,5 @@ Welcome, new traveller to my mystical jazz spaceship. We thank you for tuning in
 
 Please, explore the website. I hope something interests you. Right now it's a little sparse (as of Sep 2024), but I will be using it a lot more in the future. Right now, I'm <a href="/projects/building-the-site">building the site</a>, which you can check out at the link when I've written that up. 
 
-That being said, I'm also writing up my thesis, so thats a time sink, and there may be periods where out frequency produces static for abit. That being said, callers for tutoring are always welcome. 
 
 
