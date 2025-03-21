@@ -4,6 +4,8 @@ title: Tutoring
 permalink: /tutoring/
 ---
 
+## I now have a <a href="https://www.harrimcaleese.com/">proper tutoring website</a> ! 
+
 I am a tutor for A-level, GCSE, Pre-GCSE and personal interests.
 
 I do discounts for groups! Study groups are a different way to learn that help students work together and share ideas.
@@ -27,13 +29,13 @@ I do discounts for groups! Study groups are a different way to learn that help s
 ### I travel by bicycle, so I ask for a **£5** callout if it will take me longer than 30minutes to get to you.  
 ------------------------------
 ### A-LEVEL (Equiv.)
-#### - £30 per hour
+#### - £40 per hour
 ------------------------------
 ### GCSE (Equiv.)
-#### - £30 per hour
+#### - £35 per hour
 ------------------------------
 ### Pre-GCSE 
-#### - £25 per hour
+#### - £30 per hour
 ------------------------------
 ### Group Discounts
 #### - 2 Tutees: £5ph off each
