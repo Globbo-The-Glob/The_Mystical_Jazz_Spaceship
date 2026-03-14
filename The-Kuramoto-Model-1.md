@@ -46,9 +46,11 @@ The coupling term $$K$$ is averaged over the population to normalise the couplin
 # Complex Numbers in the Kuramoto Model
 To solve this model, we need to express it in a new way. 
 When there is a large degree of synchrony in the population, there is a large coherence between the oscillators and they group up. When they are desynchronised, the population is spread out. We measure this using a complex number, expressed in exponential form:
+
 $$z(t) = r(t)e^{i\psi(t)} = \frac{1}{N}\sum^N_ie^{i\theta_i(t)}$$
+
 What is the benefit of this? Well it allows a new understanding of the oscillator population. The dynamics of the underlying oscillators can be expressed using two numbers: $$r,\psi$$.
-We call $$0 \leq r \leq 1$$ the order parameter. If the oscillators are all grouped up, the sum on the right tends to $N$ and when normalised tends to 1.
+We call \(0 \leq r \leq 1\) the order parameter. If the oscillators are all grouped up, the sum on the right tends to $N$ and when normalised tends to 1.
 $$\psi$$ is the group phase, which is the average of the phases. 
 
 Further exploration of this gives the equation:
