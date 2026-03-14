@@ -9,5 +9,6 @@ The Mystical Jazz Spaceship brings you only the hippest grokkings from across th
 <a href="/blog/music/weekly/">Weekly Bangers</a> 
 
 # Maths 
+<a href="/blog/maths/kuro1/">Kuramoto 1</a>  - An Introduction to one of my favourite math topics
 
 <a href="/blog/maths/vectors/">Vectors</a> - An introdcution to the concept of vectors that hopefully anyone with some basic maths knowledge can get. WIP as needs images
