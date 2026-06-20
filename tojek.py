@@ -1,1 +1,0 @@
-/home/globbo/Documents/The State of Affairs/tojek.py
