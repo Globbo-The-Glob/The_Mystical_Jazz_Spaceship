@@ -1,9 +1,9 @@
 ---
 layout: payge
 title:  "Dam Hydrostatics"
-date:   2026-06-20 22:51:38 +0100
+date:   2026-06-20 23:04:22 +0100
 categories: jekyll update
-permalink: /dam-hydrostatics
+permalink: /blog/physics/dam-hydrostatics/
 ---
 
 ---
