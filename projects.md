@@ -20,6 +20,11 @@ My scattered research project, in desperate need of cohesion.
 ## Tiger Rider
 A financial trading bot system. The repo is private right now. 
 
+## Zine: Disco Semantics
+A zine exploring semantics through single loose prompts.
+<br>
+<a href="/zine/">Read the Zine</a>
+
 ## Website Building
 The very site you find yourself within. 
 <br>
