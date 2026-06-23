@@ -118,12 +118,6 @@ permalink: /art/
   <div class="art-tile" onclick="openLightbox('/images/lady.jpg')">
     <img src="/images/lady.jpg" alt="lady">
   </div>
-  <div class="art-tile" onclick="openLightbox('/images/latex_attempt_2.jpg')">
-    <img src="/images/latex_attempt_2.jpg" alt="latex_attempt_2">
-  </div>
-  <div class="art-tile" onclick="openLightbox('/images/mask.jpg')">
-    <img src="/images/mask.jpg" alt="mask">
-  </div>
   <div class="art-tile" onclick="openLightbox('/images/octo_poo.jpg')">
     <img src="/images/octo_poo.jpg" alt="octo_poo">
   </div>
@@ -141,9 +135,6 @@ permalink: /art/
   </div>
   <div class="art-tile" onclick="openLightbox('/images/stoner.jpg')">
     <img src="/images/stoner.jpg" alt="stoner">
-  </div>
-  <div class="art-tile" onclick="openLightbox('/images/sub_chel.jpg')">
-    <img src="/images/sub_chel.jpg" alt="sub_chel">
   </div>
   <div class="art-tile" onclick="openLightbox('/images/tattoo plan.jpg')">
     <img src="/images/tattoo plan.jpg" alt="tattoo plan">
