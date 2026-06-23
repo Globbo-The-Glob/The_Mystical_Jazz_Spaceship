@@ -4,15 +4,6 @@ title: Disco Semantics
 permalink: /zine/
 ---
 
-<style>
-.zine-content {
-  white-space: pre-wrap;
-  font-family: inherit;
-  line-height: 1.8;
-}
-</style>
-
-<div class="zine-content">
 # Disco Semantics
 
 Disco Semantics is an ongoing process to
@@ -44,5 +35,3 @@ Subject -> "Disco Subs"
 In this issue the concept of "more" is perceived
 
 [1. More](/DiscoSemantics_1_More.pdf)
-
-</div>

@@ -14,13 +14,11 @@
         @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
 
         :root{
-          font-family: 'Lora', serif;
-          font-size: clamp(14px, 2vw, 18px);
+          font-family: Courier;
           /* Set neon color */
         --neon-text-color: rgb(255, 0, 221);
         --neon-border-color: rgb(255, 217, 0);
         }
-
         body{
           background-color: rgb(7, 7, 7);
           line-height: 1.6;
@@ -160,13 +158,26 @@
 
       .mainglobal{
         /* Same as the width of the sidenav */
-       
+
        font-size: min(calc(1vw + 1vh + 1.5vmin), 32px);/* Increased text to enable scrolling */
        padding: 10px 50px 10px;
        color: #ffbf00;
        grid-column: 2;
-       
+
      }
+
+      .mainglobal p {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      .mainglobal h1, .mainglobal h2, .mainglobal h3, .mainglobal h4, .mainglobal h5, .mainglobal h6 {
+        white-space: normal;
+      }
+
+      .mainglobal a {
+        white-space: normal;
+      }
 
       .footer {
         /* Same as the width of the sidenav */
