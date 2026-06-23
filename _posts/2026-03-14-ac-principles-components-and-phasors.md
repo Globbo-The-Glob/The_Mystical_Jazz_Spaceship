@@ -3,12 +3,11 @@ layout: payge
 title:  "Ac Principles, Components And Phasors"
 date:   2026-03-14 22:44:48 +0000
 categories: jekyll update
-permalink: /ac-principles-components-and-phasors
+permalink: /blog/physics/ac-principles-components-and-phasors
 ---
 
 ---
 tags:
-  - Tutoring
   - Physics
   - Electronics
 ---
