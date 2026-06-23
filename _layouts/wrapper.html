@@ -11,24 +11,27 @@
     </head>
 <!---->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
         :root{
-          font-family: Courier;
-          /* Set neon color */
-        --neon-text-color: rgb(255, 0, 221);
-        --neon-border-color: rgb(255, 217, 0);
+          font-family: 'Lora', serif;
+          --text-color: #d4af37;
+          --bg-color: #0a1128;
+          --accent-color: #1a2a4a;
         }
 
         body{
-          background-color: rgb(7, 7, 7);
+          background-color: var(--bg-color);
+          color: var(--text-color);
         }
-        @font-face{
-          font-family: neon;
-          src: url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+        p, li {
+          margin: 1.2em 0;
+          line-height: 1.8;
         }
-        
-        
+
         h3{
-          color: #ffbf00;
+          color: var(--text-color);
         }
         
         .wrapper{
@@ -43,10 +46,10 @@
         }
 
         .logo{
-          color:#ffcefb;
-          background-color:rgba(236, 146, 216, 0);
+          color: var(--text-color);
+          background-color: rgba(212, 175, 55, 0.05);
           grid-column: 1;
-          text-shadow:1px 1px 10px #ffe056, 1px 1px 10px #fa5fe0;
+          text-shadow: 1px 1px 5px rgba(212, 175, 55, 0.3);
           font-size: 36px;
           text-align:center;
           padding-top: 0px;
@@ -55,7 +58,6 @@
           padding-right: 10px;
           overflow-x: hidden;
           overflow-y:hidden ;
-          
         }
 
         .topnav {
@@ -65,11 +67,10 @@
           grid-area: 1/2/2/2;
           }
         
-        /* Style the links inside the navigation b99c5c4ar */
+        /* Style the links inside the navigation bar */
         .topnav a {
           float: left;
-          color: #ffe7d0;
-          
+          color: var(--text-color);
           text-align: center;
           padding-top: 10px;
           padding-bottom: 12px;
@@ -77,65 +78,53 @@
           padding-right: 10px;
           font-size: 17px;
           text-decoration: none;
-        }  
-        
+        }
+
         /* Change the color of links on hover */
         .topnav a:hover {
-          background: radial-gradient(circle, #ffe7d0 0%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 70%);  
-          color: black;
-          text-shadow:1px 1px 11px #fff, 1px 1px 10px #ffe678;
+          background: rgba(212, 175, 55, 0.15);
+          color: #ffffff;
+          text-shadow: 1px 1px 5px rgba(212, 175, 55, 0.5);
         }
-        
+
         /* Add a color to the active/current link */
         .topnav a.active {
-          
-          color: rgb(46, 46, 46);
-          background: radial-gradient(circle,  rgba(246,173,244,1) 30%, rgba(250, 194, 248, 0.6) 40%, rgba(250, 194, 248, 0.6) 40%, rgba(0,212,255,0) 70%);
-          text-shadow:1px 1px 11px #fff, 1px 1px 10px rgba(246,173,244,1);
+          color: #ffffff;
+          background: rgba(212, 175, 55, 0.25);
+          text-shadow: 1px 1px 8px rgba(212, 175, 55, 0.6);
         }
         
-        #neon{          
+        #neon{
           font-size: 1em;
-
-    
-          font-weight: 200;
-          font-style: bold;
-          color: #fdbce0;
+          font-weight: 600;
+          color: var(--text-color);
           padding: 2% 3% 1%;
-          
-          
-          
-          
           text-transform: uppercase;
-           
         }
 
         a {
           text-decoration: none;
-          color: #ffe7d0;
-          
-      }
-        
+          color: var(--text-color);
+        }
+
         a:hover {
-          color: #f1f1f1;
-          text-shadow:1px 1px 10px #dc85e4, 1px 1px 10px #dda1e2;
-      }
+          color: #ffffff;
+          text-shadow: 1px 1px 5px rgba(212, 175, 55, 0.5);
+        }
 
         .sidenav {
-          height: 100%; /* Full-height: remove this if you want "auto" height */
-          /* Set the width of the sidebar */
-           /* Fixed Sidebar (stay in place on scroll) */
-          z-index: 2; /* Stay on top */
-          background-color: rgba(90, 18, 224, 0) ; /* Black */
-          border: 1px outset #fda5538a;
-          overflow-x: hidden; /* Disable horizontal #ad2f2fscroll */
+          height: 100%;
+          z-index: 2;
+          background-color: rgba(26, 42, 74, 0.3);
+          border: 1px solid rgba(212, 175, 55, 0.3);
+          overflow-x: hidden;
           padding-top: 2px;
           padding-right: 8px;
           padding-bottom: 0px;
           padding-left: 8px;
           grid-column: 1;
       }
-      
+
       /* The navigation menu links */
       .sidenav a {
           padding-top: 5px;
@@ -144,34 +133,30 @@
           padding-left: 8px;
           text-decoration: none;
           font-size: 18px;
-          color: #ffe7d0;
+          color: var(--text-color);
           display: block;
       }
-      
+
       /* When you mouse over the navigation links, change their color */
       .sidenav a:hover {
-          color: #f1f1f1;
-          text-shadow:1px 1px 10px #dc85e4, 1px 1px 10px #dda1e2;
+          color: #ffffff;
+          text-shadow: 1px 1px 5px rgba(212, 175, 55, 0.5);
       }
 
       .mainglobal{
-        /* Same as the width of the sidenav */
-       
-       font-size: min(calc(1vw + 1vh + 1.5vmin), 32px);/* Increased text to enable scrolling */
+       font-size: min(calc(1vw + 1vh + 1.5vmin), 32px);
        padding: 10px 50px 10px;
-       color: #ffbf00;
+       color: var(--text-color);
        grid-column: 2;
-       
      }
 
       .footer {
-        /* Same as the width of the sidenav */
-       font-size: 18px; /* Increased text to enable scrolling */
+       font-size: 18px;
        padding: 5px 2px 5px;
        text-align: left;
-       color: #ffbf00;
+       color: var(--text-color);
        grid-area: 3 / 1 / 4 / 3;
-       border: 1px outset #fda553;
+       border: 1px solid rgba(212, 175, 55, 0.3);
      }
 
      
@@ -219,23 +204,23 @@
             <div class="sidenav">
                 <br>
                 <div id="neon">Flash Nav</div>
-              <hr color="#ffbf00">
-              <hr color=#ffbf00>
+              <hr color="#d4af37">
+              <hr color="#d4af37">
               <a href="/blog/music/weekly/"> "Weekly Bangers"</a>
               {% for post in site.posts %}
                 <a href="{{post.permalink}}">{{post.title}}</a>
               {%endfor%}
             </div>
             <div class="mainglobal">
-              <hr color="#fda553">
-              <hr color="#fda553">
-              <hr color="#fda553">
-              <hr color="#fda553">
+              <hr color="#d4af37">
+              <hr color="#d4af37">
+              <hr color="#d4af37">
+              <hr color="#d4af37">
               {{content}}
-              <hr color="#fda553">
-              <hr color="#fda553">
-              <hr color="#fda553">
-              <hr color="#fda553">
+              <hr color="#d4af37">
+              <hr color="#d4af37">
+              <hr color="#d4af37">
+              <hr color="#d4af37">
             </div>
 
             <div class="footer">
