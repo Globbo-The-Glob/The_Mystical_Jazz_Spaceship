@@ -3,16 +3,13 @@ layout: payge
 title:  "Cooperative Pedagogy"
 date:   2026-06-20 22:37:10 +0100
 categories: jekyll update
-permalink: /cooperative-pedagogy
+permalink: /blog/writings/cooperative-pedagogy/
 ---
 
 I wrote this originally before starting my PGCE. It is currently unfinished, maybe will return to this in future.
 
 Idea: 
 Education is empowering when it is cooperative, in service of each other, and derived from selfish self preservation
-
-I am wondering about how to approach children. I want to be kind, on the level. 
-I believe there is something to the relationship of trust, and the teacher student separation is a methodology of control which creates disobedience. 
 
 ### Cooperative Authority
 In tradition, school teachers have been stern dictators of the class room. They are in control and students obey the control. The school and its actuators are institutions and they are not to be questioned or challenged by the student body. 

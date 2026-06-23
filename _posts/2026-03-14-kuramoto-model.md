@@ -3,7 +3,7 @@ layout: payge
 title:  "Kuramoto Model 1"
 date:   2026-03-14 10:31:00 +0100
 categories: jekyll update
-permalink: /blog/maths/kuro1/
+permalink: /blog/maths/kuramoto-model/
 ---
 Objectives: 
 - Understand the motivation for synchronisation models

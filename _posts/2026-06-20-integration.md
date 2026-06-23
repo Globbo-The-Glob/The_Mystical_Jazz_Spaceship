@@ -3,7 +3,7 @@ layout: payge
 title:  "Integration"
 date:   2026-06-20 22:57:42 +0100
 categories: jekyll update
-permalink: /integration
+permalink: /maths/integration
 ---
 
 ---

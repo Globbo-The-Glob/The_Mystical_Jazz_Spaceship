@@ -3,7 +3,7 @@ layout: payge
 title:  "Paraqualia"
 date:   2025-03-21 10:31:00 +0100
 categories: jekyll update
-permalink: /paraqualia
+permalink: /blog/writings/paraqualia/
 ---
 
 I've been thinking a lot about how life feels at the moment, wrote this the other day. I'm not sure if the word exists anyway, can't find anything perhaps a __NEW DEFINITION__????

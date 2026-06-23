@@ -1,7 +1,9 @@
 ---
 layout: payge
-title: Indra Theory Home
-permalink: /indra/
+title: Indra Theory
+date: 2026-03-15 10:00:00 +0100
+categories: jekyll update
+permalink: /blog/physics/indra-theory/
 ---
 
 > If untold Buddha-lands are reduced to atoms, In one atom are untold lands, and as in one, so in each. The atoms to which these Buddha-lands are reduced in an instant are unspeakable,
